@@ -6,11 +6,11 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+//service layer
 @Service
 public class
 StudentService {
     private final StudentRepo studentRepo;
-
 
 
     public StudentService(StudentRepo studentRepo){
